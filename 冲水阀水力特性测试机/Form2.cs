@@ -275,7 +275,7 @@ namespace 冲水阀水力特性测试机
             //c.channelCount = 3;
             c.convertClkRate = 100;
             c.deviceDescription = "PCI-1710HG,BID#0";
-            //c.deviceDescription = "DemoDevice,BID#0";
+            c.deviceDescription = "DemoDevice,BID#0";
             //c.profilePath = "D:/demo.xml";
             c.sectionCount = 0;//The 0 means setting 'streaming' mode.
             c.sectionLength = 100;

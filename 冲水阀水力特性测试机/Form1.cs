@@ -53,7 +53,7 @@ namespace 冲水阀水力特性测试机
         private config c;
         public const int CHANNEL_COUNT_MAX = 16;
         private double[] m_dataScaled = new double[CHANNEL_COUNT_MAX];
-        private DataTable dt;
+        public static DataTable dt;
         private byte[] doData;
         public void WaveformAi()
         {
@@ -366,7 +366,8 @@ namespace 冲水阀水力特性测试机
             //通道4  流量
             c.convertClkRate = 1000;//每个通道的时钟频率
             c.deviceDescription = "PCI-1710HG,BID#0";
-            c.profilePath = "D:/demo.xml";
+            c.deviceDescription = "DemoDevice,BID#0";
+            //c.profilePath = "D:/demo.xml";
             c.sectionCount = 0;//The 0 means setting 'streaming' mode.
             c.sectionLength = 1000;//每个通道的缓冲区长度
             c.startChannel = 0;
@@ -777,6 +778,20 @@ namespace 冲水阀水力特性测试机
         private void Dingpin_out_ValueChanged(object sender, EventArgs e)
         {
             bpqMR.write_short("17", (short)(dingpin_out.Value * 100), 2);
+        }
+
+        private void HslButton1_Click_2(object sender, EventArgs e)
+        {
+            // Hide();
+            if (dt.Rows.Count > 1)
+            {
+                using (PressureCurve form = new PressureCurve())
+                {
+                    form.ShowDialog();
+                }
+                System.Threading.Thread.Sleep(50);
+                Show();
+            }
         }
 
         private void workName_TextChanged(object sender, EventArgs e)
