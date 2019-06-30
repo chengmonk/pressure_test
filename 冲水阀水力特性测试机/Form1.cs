@@ -366,7 +366,7 @@ namespace 冲水阀水力特性测试机
             //通道4  流量
             c.convertClkRate = 1000;//每个通道的时钟频率
             c.deviceDescription = "PCI-1710HG,BID#0";
-            c.deviceDescription = "DemoDevice,BID#0";
+            //c.deviceDescription = "DemoDevice,BID#0";
             //c.profilePath = "D:/demo.xml";
             c.sectionCount = 0;//The 0 means setting 'streaming' mode.
             c.sectionLength = 1000;//每个通道的缓冲区长度

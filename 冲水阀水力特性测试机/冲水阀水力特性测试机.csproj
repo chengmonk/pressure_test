@@ -41,12 +41,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Advantech\DAQNavi\Automation.BDaq\4.0.0.0\Automation.BDaq4.Design.dll</HintPath>
     </Reference>
-    <Reference Include="HslCommunication.6.0.4.0.Fakes">
-      <HintPath>FakesAssemblies\HslCommunication.6.0.4.0.Fakes.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -159,10 +153,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="HslCommunication">
-      <Version>6.2.5</Version>
+      <Version>7.0.1</Version>
     </PackageReference>
     <PackageReference Include="HslControls">
-      <Version>2.1.1</Version>
+      <Version>2.1.3</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.2</Version>

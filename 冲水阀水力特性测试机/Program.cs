@@ -14,7 +14,7 @@ namespace 冲水阀水力特性测试机
         [STAThread]
         static void Main()
         {
-           if(HslControls.Authorization.SetAuthorizationCode("1043ba6f-6860-4852-ac4f-bd0b6d177b99"))
+           if(HslControls.Authorization.SetAuthorizationCode("3f5fd222-35c7-472e-a5ff-0be63333bd8c"))
             {
                
             }

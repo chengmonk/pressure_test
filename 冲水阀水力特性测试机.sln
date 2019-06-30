@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28809.33
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "冲水阀水力特性测试机", "冲水阀水力特性测试机\冲水阀水力特性测试机.csproj", "{A7363BD8-B44C-4D56-9E6D-2ECC01F56952}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{FF8A7221-F13D-483F-8C9A-D4502DF7CBD1}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "压力测试", "压力测试\压力测试.vdproj", "{7D415EA4-BF8C-4F55-9E76-59717D71EAC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{A7363BD8-B44C-4D56-9E6D-2ECC01F56952}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7363BD8-B44C-4D56-9E6D-2ECC01F56952}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7363BD8-B44C-4D56-9E6D-2ECC01F56952}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF8A7221-F13D-483F-8C9A-D4502DF7CBD1}.Debug|Any CPU.ActiveCfg = Debug
-		{FF8A7221-F13D-483F-8C9A-D4502DF7CBD1}.Release|Any CPU.ActiveCfg = Release
+		{7D415EA4-BF8C-4F55-9E76-59717D71EAC5}.Debug|Any CPU.ActiveCfg = Debug
+		{7D415EA4-BF8C-4F55-9E76-59717D71EAC5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
